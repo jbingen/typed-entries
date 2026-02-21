@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@jbingen/typed-entries)](https://www.npmjs.com/package/@jbingen/typed-entries)
 [![npm bundle size](https://img.shields.io/npm/unpacked-size/@jbingen/typed-entries)](https://www.npmjs.com/package/@jbingen/typed-entries)
-[![license](https://img.shields.io/github/license/jbingen/typed-entries)](https://github.com/jbingen/typed-entries/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/jbingen/typed-entries)](https://github.com/jbingen/typed-entries/blob/main/LICENSE) 
 
 Type-safe `Object.keys`, `Object.entries`, and `Object.fromEntries` for TypeScript.
 
