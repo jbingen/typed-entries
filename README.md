@@ -43,7 +43,7 @@ fromEntries([["a", 1], ["b", 2]] as const);
 
 TypeScript deliberately widens `Object.keys()` to `string[]` and `Object.entries()` to `[string, T][]`. This is technically correct because objects can have extra properties at runtime. But in practice, when you know the shape, the widened types just create friction.
 
-This library provides the narrowed versions as explicit opt-ins. Three functions, ~15 lines, zero dependencies.
+This library provides the narrowed versions as explicit opt-ins. Three functions, zero dependencies.
 
 ## API
 
@@ -77,7 +77,7 @@ Use it when you have a known, closed object shape and you're iterating over it. 
 
 ## Design decisions
 
-- Zero dependencies. ~15 lines of TypeScript.
+- Zero dependencies. Tiny footprint.
 - Thin wrappers over `Object.keys`, `Object.entries`, `Object.fromEntries` - no runtime logic beyond the cast.
 - Intentionally small scope. No deep utilities, no mapped types, no type-toolbelt expansion.
 - Explicit opt-in to narrowed types, not a global override.
