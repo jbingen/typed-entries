@@ -1,15 +1,15 @@
 # 🔑 typed-entries
 
-[![npm version](https://img.shields.io/npm/v/@jbingen/typed-entries)](https://www.npmjs.com/package/@jbingen/typed-entries)
-[![npm bundle size](https://img.shields.io/npm/unpacked-size/@jbingen/typed-entries)](https://www.npmjs.com/package/@jbingen/typed-entries)
-[![license](https://img.shields.io/github/license/jbingen/typed-entries)](https://github.com/jbingen/typed-entries/blob/main/LICENSE) 
+[![npm version](https://img.shields.io/npm/v/typed-entries)](https://www.npmjs.com/package/typed-entries)
+[![npm bundle size](https://img.shields.io/npm/unpacked-size/typed-entries)](https://www.npmjs.com/package/typed-entries)
+[![license](https://img.shields.io/github/license/jbingen/typed-entries)](https://github.com/jbingen/typed-entries/blob/main/LICENSE)
 
 Type-safe `Object.keys`, `Object.entries`, and `Object.fromEntries` for TypeScript.
 
 For anyone tired of writing `Object.keys(obj) as (keyof typeof obj)[]` every time.
 
 ```
-npm install @jbingen/typed-entries
+npm install typed-entries
 ```
 
 ```typescript
@@ -25,7 +25,7 @@ const entries = entries(config); // (["host", string] | ["port", number])[]
 Drop-in replacements. Types are inferred from the object - no manual annotations.
 
 ```typescript
-import { keys, entries, fromEntries } from "@jbingen/typed-entries";
+import { keys, entries, fromEntries } from "typed-entries";
 
 const config = { host: "localhost", port: 3000, debug: true };
 

@@ -1,5 +1,5 @@
 {
-  "name": "@jbingen/typed-entries",
+  "name": "typed-entries",
   "version": "0.1.0",
   "description": "Type-safe Object.keys, Object.entries, and Object.fromEntries for TypeScript.",
   "type": "module",
